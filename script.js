@@ -40,18 +40,5 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(showCar)
         .catch(error => console.error(error));
     });
-    
-    
-        
-//         request.send();
-//         request.addEventListener('readystatechange', () => {
-//             if (request.readyState === 4 && request.status === 200) {
-//                 const data = JSON.parse(request.responseText);
-                
-//             } else {
-//                 output.innerHTML = 'Произошла ошибка';
-//             }
-//         });
-//     });
 
 });
